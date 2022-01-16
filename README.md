@@ -33,18 +33,16 @@ else:
 
 ~~~python
 
-import re
-
 sexo = input("Digite o seu sexo (F - Feminino , M - Masculino): ")
 
-if re.search("[(Ff)(.eminino)(.EMININO)]", sexo):
+if sexo == "f" or sexo == "F":
     print('Seu sexo é Feminio')
-elif re.search("[(Mm)(.asculino)(.ASCULINO)]", sexo):
+elif sexo == "m" or sexo == "M":
     print('Seu sexo é Masculino')
 
 ~~~
 
-###[Link dos Exercícios](https://wiki.python.org.br/EstruturaSequencial)
+[Link dos Exercícios](https://wiki.python.org.br/EstruturaSequencial)
 
 1 - Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
@@ -62,4 +60,12 @@ print (f"O número digitado foi {num}")
 
 ~~~
 
+3 - Faça um Programa que peça dois números e imprima a soma.
+
+~~~python
+num1 = int(input("Digite um número: "))
+num2 = int(input("Digite mais um número: "))
+print (f"A soma do num1 e num2 é: {num1 + num2}")
+
+~~~
 
