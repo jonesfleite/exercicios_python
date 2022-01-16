@@ -44,5 +44,22 @@ elif re.search("[(Mm)(.asculino)(.ASCULINO)]", sexo):
 
 ~~~
 
+###[Link dos Exercícios](https://wiki.python.org.br/EstruturaSequencial)
+
+1 - Faça um Programa que mostre a mensagem "Alo mundo" na tela.
+
+~~~python
+
+print ("Olá Mundo")
+
+~~~
+
+2 - Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+
+~~~python
+num = input("Digite um número: ")
+print (f"O número digitado foi {num}")
+
+~~~
 
 
