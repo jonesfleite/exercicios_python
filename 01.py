@@ -7,3 +7,5 @@ if n1 > n2:
     print (f'O número maior é {n1}')
 else:
     print (f'O número maior é {n2}')
+
+print ("Olá Mundo")
