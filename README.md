@@ -69,3 +69,15 @@ print (f"A soma do num1 e num2 é: {num1 + num2}")
 
 ~~~
 
+4 - Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+
+~~~python
+num1 = int(input("Digite a primeira nota: "))
+num2 = int(input("Digite a segunda nota: "))
+num3 = int(input("Digite a terceira nota: "))
+
+resultado = (num1 + num2 + num3) / 3
+
+print(f"Resultado da média da nota é {resultado}")
+
+~~~
