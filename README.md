@@ -1,4 +1,5 @@
-# REPOSITÓRIO PYTHON BÁSICO EXERCÍCIOS
+# REPOSITÓRIO PYTHON BÁSICO AO AVANÇADO  -- EXERCÍCIOS
+[Link dos Exercícios](https://wiki.python.org.br/EstruturaSequencial)
 
 ## Exercícios de prática de Python do básico ao avançado.
 
